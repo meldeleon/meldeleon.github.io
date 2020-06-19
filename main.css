@@ -1,0 +1,48 @@
+html {
+}
+body {
+  background-color: #efebde;
+}
+.rainbow {
+  transform: rotate(-45deg) translateX(-100px) translateY(-300px);
+}
+
+.rainbow > div {
+  height: 10px;
+  margin-bottom: 2px;
+}
+#r1 {
+  background-color: #528a69;
+}
+#r2 {
+  background-color: #505ead;
+}
+#r3 {
+  background-color: #924693;
+}
+#r4 {
+  background-color: #6141a2;
+}
+#r5 {
+  background-color: #aa6242;
+}
+#r6 {
+  background-color: #da5b53;
+}
+#r7 {
+  background-color: #eece67;
+}
+
+/*Monsta Hands Screen Styling*/
+@media screen and (min-width: 1200px) {
+  .rainbow {
+    transform: rotate(-45deg) translateX(-500px) translateY(-300px);
+  }
+}
+
+/*Babi Hands Screen Styling*/
+@media screen and (max-width: 1080px) {
+  .rainbow {
+    transform: rotate(-45deg) translateX(-50px) translateY(-200px);
+  }
+}
