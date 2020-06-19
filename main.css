@@ -3,12 +3,20 @@ html {
 body {
   background-color: #efebde;
 }
-.rainbow {
-  transform: rotate(-45deg) translateX(-100px) translateY(-300px);
-}
 
+* {
+  margin: 0;
+  padding: 0;
+}
+.rainbow {
+  position: absolute;
+  left: -68px;
+  top: 0;
+  width: 250px;
+  transform: rotate(-45deg);
+}
 .rainbow > div {
-  height: 10px;
+  height: 1.5vh;
   margin-bottom: 2px;
 }
 #r1 {
@@ -31,18 +39,4 @@ body {
 }
 #r7 {
   background-color: #eece67;
-}
-
-/*Monsta Hands Screen Styling*/
-@media screen and (min-width: 1200px) {
-  .rainbow {
-    transform: rotate(-45deg) translateX(-500px) translateY(-300px);
-  }
-}
-
-/*Babi Hands Screen Styling*/
-@media screen and (max-width: 1080px) {
-  .rainbow {
-    transform: rotate(-45deg) translateX(-50px) translateY(-200px);
-  }
 }
