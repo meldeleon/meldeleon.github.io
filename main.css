@@ -1,23 +1,25 @@
-html {
+* {
+  padding: 0px;
+  margin: 0px;
 }
 body {
+  font-family: "Libre Caslon Text", serif !important;
   background-color: #efebde;
 }
 
-* {
-  margin: 0;
-  padding: 0;
+#rainbow_container {
+  height: 120px;
 }
 .rainbow {
   position: absolute;
-  left: -68px;
+  left: -120px;
   top: 0;
-  width: 250px;
+  width: 500px;
   transform: rotate(-45deg);
 }
 .rainbow > div {
-  height: 1.5vh;
-  margin-bottom: 2px;
+  height: 1.2vh;
+  margin-bottom: 4.5px;
 }
 #r1 {
   background-color: #528a69;
@@ -35,8 +37,30 @@ body {
   background-color: #aa6242;
 }
 #r6 {
-  background-color: #da5b53;
+  background-color: #d13021;
 }
 #r7 {
-  background-color: #eece67;
+  background-color: #fbcc3e;
+}
+
+.centering_container {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#book_title {
+  display: inline-block;
+  font-size: xx-large;
+}
+#author {
+  padding-top: 5vh;
+  font-size: x-large;
+}
+.social-icons {
+  width: 7vw;
+  min-width: 72px;
+  height: auto;
 }
