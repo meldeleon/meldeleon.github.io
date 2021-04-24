@@ -58,7 +58,11 @@ body {
   padding-top: 1.4vh;
 }
 .social-icons {
-  width: 7vw;
+  width: 6vw;
   min-width: 72px;
+  max-width: 100px;
   height: auto;
+}
+
+#medium {
 }
