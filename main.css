@@ -63,9 +63,3 @@ body {
   max-width: 100px;
   height: auto;
 }
-
-#medium {
-  width: 7vw;
-  min-width: 72px;
-  max-width: 100px;
-}
